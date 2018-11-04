@@ -8,21 +8,23 @@ Released under the [MIT License](https://opensource.org/licenses/MIT)
 
 ## Introduction
 
-**RegEx Splitter** is a lightweight ASP.NET Core Web Application that I developed during a .NET Core course that I hosted on Rome, Italy. It has been originally developed as a demonstrative web application for my students, which be also used as a boilerplate for small ASP.NET Core projects by everyone. 
+**RegEx Splitter** is a lightweight ASP.NET Core Web Application that I developed during a .NET Core course hosted in Rome, Italy: for this very reason, its main purpose is to serve as a demonstrative web application for the course students, which be also used as a boilerplate for small ASP.NET Core MVC projects by everyone.
 
-If used as a boilerplate, it provides the following:
+If used as a ASP.NET Core MVC boilerplate, it provides the following:
 
-- **ASP.NET Core 2.1** framework
+- **ASP.NET Core 2.1** framework built and optimized for 64-bit Linux.
 - **MVC Support** with C# controllers and Razor views.
 - **Multi-Language** support (english & italian) with *fallback-to-english* features and *browser autodetect* capabilities.
 - **Bootstrap 4.x & JQuery 3.x** with a different resource loading behaviour for `production` and `development` environments.
 - **Opportunistic CDN** approach using the `asp-fallback-*` tag helpers to load external resources from the CDN with a local copy fallback when the CDN is down.
 
-However, since the project also offers a unique "RegEx splitting" feature that I couldn't find anywhere else on the web, I also released it a stand-alone tool at the following URL:
+However, since the project also offers a unique "regular expression splitting" feature that I couldn't find anywhere else on the web, I also released it a stand-alone tool at the following URL:
 
 * https://regexsplitter.ryadel.com/
 
-**RegEx Splitter** is part of the [Ryadel.IO](https://io.ryadel.com/) project, a collection of free online tools to help developers and system administrators to perform simple task to better fullfill their job.
+The web application is currently hosted on a CentOS + NGINX machine using the *.NET Core runtime for Linux* (disclaimer: no Windows machine were harmed in the process).
+
+**RegEx Splitter** is also part of the [Ryadel.IO](https://io.ryadel.com/) project, a collection of free online tools to help developers and system administrators to perform simple task to better fullfill their job.
 
 ## Description
 
@@ -56,5 +58,5 @@ However, you can also download/clone this GitHub package and run it locally, or 
 
 ## Official Resources
 - https://regexsplitter.ryadel.com/ - the online project
-- [**RegEx Splitter** project page](https://www.ryadel.com/projects/en/regexsplitter-en) on Ryadel.com (official development website) - also available in [italian](https://www.ryadel.com/projects/regex-splitter)
+- [**RegEx Splitter** project page](https://www.ryadel.com/projects/en/regexsplitter) on Ryadel.com (official development website) - also available in [italian](https://www.ryadel.com/projects/regex-splitter)
 - [Ryadel.IO project hub](https://io.ryadel.com/)
