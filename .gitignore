@@ -53,12 +53,3 @@ packages/**
 *.resharper
 *.ncrunch*
 *.ndproj
-Properties
-Web.config
-Web.Debug.config
-Web.Release.config
-/bundleconfig.json
-/compilerconfig.json
-/compilerconfig.json.defaults
-/RegExSplitter.csproj
-/RegExSplitter.sln

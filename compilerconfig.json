@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/site.css",
+    "inputFile": "wwwroot/css/site.less"
+  },
+  {
+    "outputFile": "wwwroot/js/regexp-splitter.es5.js",
+    "inputFile": "wwwroot/js/regexp-splitter.js"
+  }
+]

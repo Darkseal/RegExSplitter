@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/js/regexp-splitter.min.js",
+    "inputFiles": [
+      "wwwroot/js/regexp-splitter.js"
+    ]
+  }
+]
