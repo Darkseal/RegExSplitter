@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4148"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09449"
+   sodipodi:docname="Logo.Ryadel.2017.svg">
+  <metadata
+     id="metadata4154">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4152" />
+  <sodipodi:namedview
+     pagecolor="#032a4b"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4150"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="256"
+     inkscape:cy="368.36614"
+     inkscape:window-x="-8"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4148"
+     units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4136" />
+  </sodipodi:namedview>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1"
+     d="m 141.06081,579.05989 0,-22.8332 385.12029,0 385.12029,0 0,22.8332 0,22.83319 -385.12029,0 -385.12029,0 0,-22.83319 z"
+     id="path4741" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     d="m 146.07684,539.00878 c -4.06233,-2.56944 13.87228,-56.67007 31.23663,-94.22679 15.39719,-33.30198 35.41905,-65.63862 58.7257,-94.8461 12.16029,-15.23906 40.75943,-43.98579 55.2169,-55.5019 52.9562,-42.18248 108.77315,-64.87125 181.15235,-73.63605 16.98063,-2.05623 74.05165,-1.73537 91.56069,0.5149 41.46531,5.32892 75.97501,14.52023 109.28213,29.10619 102.32734,44.81159 183.35477,140.04071 228.95389,269.08279 3.22025,9.11315 5.855,17.17292 5.855,17.91068 0,0.73811 -0.70076,1.61033 -1.5573,1.93902 -2.48507,0.95359 -358.1322,0.66519 -359.64289,-0.29169 -1.59585,-1.01078 -1.45291,-1.27979 5.39273,-10.14784 10.98933,-14.23584 20.02487,-33.13977 24.92671,-52.15103 20.5746,-79.7962 -27.55082,-161.28607 -107.41112,-181.87717 -57.47057,-14.81823 -118.22077,5.83965 -154.96654,52.69555 -17.66992,22.53163 -28.31123,49.60801 -31.06915,79.05417 -3.33774,35.637 7.75589,74.64799 29.08518,102.27848 6.84564,8.86805 6.98857,9.13706 5.39271,10.14784 -1.84611,1.16933 -170.28323,1.11971 -172.13362,-0.0534 z"
+     id="path4739" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1"
+     d="m 199.42684,244.15181 c -22.56358,-5.46419 -39.64664,-27.13551 -39.59014,-50.22366 0.0699,-28.56461 23.19532,-51.72675 51.6448,-51.72675 14.10676,0 24.66918,4.0293 34.84097,13.29105 11.57504,10.53948 16.88887,22.75573 16.8539,38.74633 -0.0329,15.34577 -5.31763,27.41528 -16.46135,37.60002 -12.72983,11.63439 -30.73314,16.32213 -47.28818,12.31301 z"
+     id="path4734" />
+</svg>

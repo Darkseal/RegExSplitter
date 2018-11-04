@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Scripts  {
+    <script src="res/regexp-splitter.min.js"></script>
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">RegExp Multi-Line Splitter</h1>
+        <p class="display-sub">Split a single-line JavaScript Regular Expression into multiple lines of code.</p>
+        <p>
+            <a class="btn btn-success" href="https://www.ryadel.com/en/portfolio/regexsplitter-en/" role="button"><i class="fas fa-book-dead"></i>&nbsp; Read the docs</a>
+            <a class="btn btn-success" href="https://github.com/Darkseal/RegExSplitter" role="button"><i class="fab fa-github"></i>&nbsp; GitHub Page</a>
+            <a class="btn btn-success" href="https://io.ryadel.com/" role="button"><i class="fas fa-project-diagram"></i>&nbsp; Other Ryadel.IO tools</a>
+        </p>
+        </div>
+    </div>
+
+    <div class="container">
+    <!-- 1 column -->
+    <div>
+        <form>
+            <div class="form-group">
+                <label for="txtSingle" class="big-label">Insert a single-line JS RegExp</label>
+                <textarea id="txtSingle" name="txtSingle" class="form-control txt-single" aria-describedby="Single-Line" placeholder="Put your code here..."></textarea>
+                <small id="txtSingleHelp" class="form-text text-muted">Valid input examples: <code>/your-regexp/g</code> or <code>var re = /your-regexp/g</code> or <code>var re = new RegExp("your-regexp", "g")</code> and so on.</small>
+            </div>
+            <div class="form-group">
+                <label for="txtMulti" class="big-label">Multi-Line JS code</label>
+                <textarea id="txtMulti" name="txtSource" class="form-control txt-multi" aria-describedby="Multi-Line" placeholder="...your result will be shown here." readonly></textarea>
+                <small id="txtMultiHelp" class="form-text text-muted">
+                    A <code>new RegExp([regexp], [modifiers])</code> JavaScript code snippet
+                    containing the given RegExp escaped & splitted into multiple lines.
+                </small>
+            </div>
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                    <label for="txtNumChars" class="small-label">Max number of chars for each line:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtNumChars" name="txtNumChars" class="form-control mb-2" value="50" style="width: 80px;" />
+                </div>
+            </div>
+            <button id="btnConvert" name="btnConvert" type="button" class="btn btn-primary btn-lg"><i class="fas fa-sync"></i>&nbsp; Convert</button>
+        </form>
+    </div>
+</div>
