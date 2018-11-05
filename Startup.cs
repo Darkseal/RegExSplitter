@@ -52,7 +52,8 @@ namespace RegExSplitter
             });
 
             // Invoke the UseForwardedHeaders middleware and configure it to forward the X-Forwarded-For and X-Forwarded-Proto headers.
-            // NOTE: This must be put BEFORE calling UseAuthentication or similar authentication scheme middleware.
+            // NOTE: This must be put BEFORE calling UseAuthentication or similar authentication scheme middlewares.
+            // ref.: https://www.ryadel.com/en/asp-net-core-2-publish-deploy-web-application-linux-centos-rhel-ubuntu-debian-fedora-tutorial-guide-nginx
             // ref.: https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.1&tabs=aspnetcore2x
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {

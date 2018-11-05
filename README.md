@@ -8,9 +8,9 @@ Released under the [MIT License](https://opensource.org/licenses/MIT)
 
 ## Introduction
 
-**RegEx Splitter** is a lightweight ASP.NET Core Web Application that I developed during a .NET Core course hosted in Rome, Italy: for this very reason, its main purpose is to serve as a demonstrative web application for the course students, which be also used as a boilerplate for small ASP.NET Core MVC projects by everyone.
+**RegEx Splitter** is a lightweight ASP.NET Core Web Application that I developed during a .NET Core course hosted in Rome, Italy. Its main purpose was to serve as a demonstrative web application for the course students - and a boilerplate for small ASP.NET Core MVC projects for everyone else.
 
-If used as a ASP.NET Core MVC boilerplate, it provides the following:
+If used as a boilerplate, it provides the following:
 
 - **ASP.NET Core 2.1** framework built and optimized for 64-bit Linux.
 - **MVC Support** with C# controllers and Razor views.
