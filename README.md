@@ -18,7 +18,7 @@ If used as a boilerplate, it provides the following:
 - **Bootstrap 4.x & JQuery 3.x** with a different resource loading behaviour for `production` and `development` environments.
 - **Opportunistic CDN** approach using the `asp-fallback-*` tag helpers to load external resources from the CDN with a local copy fallback when the CDN is down.
 
-However, since the project also offers a unique "regular expression splitting" feature that I couldn't find anywhere else on the web, I also released it a stand-alone tool at the following URL:
+However, since the project also offers a unique "regular expression splitting" feature that I couldn't find anywhere else on the web, I also released it as a stand-alone tool at the following URL:
 
 * https://regexsplitter.ryadel.com/
 
@@ -58,5 +58,5 @@ However, you can also download/clone this GitHub package and run it locally, or 
 
 ## Official Resources
 - https://regexsplitter.ryadel.com/ - the online project
-- [**RegEx Splitter** project page](https://www.ryadel.com/projects/en/regexsplitter) on Ryadel.com (official development website) - also available in [italian](https://www.ryadel.com/projects/regex-splitter)
+- [**RegEx Splitter** project page](https://www.ryadel.com/en/projects/regexsplitter) on Ryadel.com (official development website) - also available in [italian](https://www.ryadel.com/projects/regex-splitter)
 - [Ryadel.IO project hub](https://io.ryadel.com/)
