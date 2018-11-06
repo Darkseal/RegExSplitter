@@ -34,7 +34,9 @@ For example, let's take the following JavaScript RegExp:
 
     var re = /([\x7F-\x84]|[\x86-\x9F]|[\uFDD0-\uFDEF]|[\u{1FFFE}-\u{1FFFF}]|[\u{2FFFE}-\u{2FFFF}]|[\u{3FFFE}-\u{3FFFF}]|[\u{4FFFE}-\u{4FFFF}]|[\u{5FFFE}-\u{5FFFF}]|[\u{6FFFE}-\u{6FFFF}]|[\u{7FFFE}-\u{7FFFF}]|[\u{8FFFE}-\u{8FFFF}]|[\u{9FFFE}-\u{9FFFF}]|[\u{AFFFE}-\u{AFFFF}]|[\u{BFFFE}-\u{BFFFF}]|[\u{CFFFE}-\u{CFFFF}]|[\u{DFFFE}-\u{DFFFF}]|[\u{EFFFE}-\u{EFFFF}]|[\u{FFFFE}-\u{FFFFF}]|[\u{10FFFE}-\u{10FFFF}].)/g;
   
-Although not being ''extremely long'', it can still cause some readability issues when placed in a standard JavaScript file. Unfortunately, JavaScript does not allow a native multi-line syntax for RegEx literals defined in such way (I wrote about such topic in [this post](https://www.ryadel.com/en/javascript-remove-xml-invalid-chars-characters-string-utf8-unicode-regex/)). **RegEx Splitter** comes to the rescue, converting the above `RegEx literal` into the following `RegExp object`:
+Although not being ''extremely long'', it can still cause some readability issues when placed in a standard JavaScript file. Unfortunately, JavaScript does not allow a native multi-line syntax for RegEx literals defined in such way (I wrote about such topic in [this post](https://www.ryadel.com/en/javascript-remove-xml-invalid-chars-characters-string-utf8-unicode-regex/)).
+
+**RegEx Splitter** comes to the rescue, converting the above `RegEx literal` into the following `RegExp object`:
 
 	var r = new RegExp(
 		"([\\x7F-\\x84]|[\\x86-\\x9F]|[\\uFDD0-\\uFDEF]|[\\u{1FFFE"+
